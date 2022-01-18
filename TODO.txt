@@ -1,1 +1,2 @@
 Align detailbox left
+Check if possible to align project card with project image
