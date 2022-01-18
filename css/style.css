@@ -324,6 +324,7 @@ a:focus {
   padding: 45px 0 75px 0;
 }
 
+
 .slider_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -356,7 +357,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #ff3333;
+  background:linear-gradient( 90deg, #ff3333, #9c2121 );
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -365,10 +366,8 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #fff;
-  color: #ff3333;
   border: 1px solid #ff3333;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .slider_section .img-box img {
@@ -623,6 +622,24 @@ a:focus {
   color: #ffffff;
 }
 
+.about_section .button{
+      padding: 10px 45px;
+      background:linear-gradient( 90deg, #ff3333, #9c2121 );
+      color: #ffffff;
+      border: none;
+      margin-top: 15px;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      border: none;
+      margin:0 auto;
+      display:block;
+    }
+
+.about_section .button:hover {
+      border: 1px solid #ff3333;
+      font-weight: bold;
+}
+
 .about_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -662,8 +679,6 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: #fff;
-  color: #ff3333;
   border: 1px solid #ff3333;
   font-weight: bold;
 }
@@ -1023,7 +1038,7 @@ a:focus {
 }
 
 .btncolor{
-  background-color: #ff3333;
+  background:linear-gradient( 90deg, #ff3333, #9c2121 );
 }
 
 .experience{
@@ -1042,17 +1057,15 @@ a:focus {
 }
 
 .experience a:hover {
-  background-color: #fff;
-  color: #ff3333;
   border: 1px solid #ff3333;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .experience .expcard{
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 100px;
-  padding-right: 200px;
+  padding-right: 150px;
 }
 .experience .expcard h1 {
   font-size: 2.5rem;
@@ -1082,10 +1095,8 @@ a:focus {
 }
 
 .project a:hover {
-  background-color: #fff;
-  color: #ff3333;
   border: 1px solid #ff3333;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .project .pcard h1 {
@@ -1155,7 +1166,6 @@ a:focus {
 
 .bottomleft :hover{
   color: #fff;
-  font-size: 20px;
   cursor: pointer;
 }
 
@@ -1167,6 +1177,7 @@ a:focus {
 
 .piccontainer{
   position: relative;
+  height: 100%;
 }
 
 .aboutcontainer{
@@ -1181,4 +1192,56 @@ a:focus {
   padding: 20px
 }
 
+.watermark {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watermark::before {
+  content: url("../images/logo.png");
+  position: absolute;
+  opacity: 0.3;
+  z-index: -1;
+}
+/*
+
+      background-image: url("../images/logo.png");
+*/
+
+.watermark p {
+  position: relative;
+  color: #444444;
+  text-align: center;
+}
+
+.watermark h1 {
+  text-align: center;
+}
+
+.watermark .button {
+    padding: 10px 45px;
+    background:linear-gradient( 90deg, #ff3333, #9c2121 );
+    color: #ffffff;
+    border: none;
+    margin-top: 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    margin:0 auto;
+    display:block;
+  }
+
+.watermark .button:hover {
+  border: 1px solid #ff3333;
+  font-weight: bold;
+
+}
+
+.btndiv{
+  padding-top: 20px;
+}
 /*# sourceMappingURL=style.css.map */
