@@ -52,7 +52,6 @@ h2 {
   position: relative;
   margin-bottom: 0;
   font-size: 2.5rem;
-  font-weight: bold;
 }
 
 .heading_container h2 span {
@@ -620,7 +619,7 @@ a:focus {
 }
 
 .about_section {
-  background: #222831;
+  background-image: url("../images/banner.jpg");
   color: #ffffff;
 }
 
@@ -656,7 +655,6 @@ a:focus {
   padding: 10px 45px;
   background-color: #ff3333;
   color: #ffffff;
-  border-radius: 45px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
@@ -664,7 +662,10 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: #e69c00;
+  background-color: #fff;
+  color: #ff3333;
+  border: 1px solid #ff3333;
+  font-weight: bold;
 }
 
 .book_section {
@@ -1148,6 +1149,8 @@ a:focus {
   left: 16px;
   font-size: 18px;
   color: #ff3333;
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 .bottomleft :hover{
@@ -1162,9 +1165,20 @@ a:focus {
   object-fit: cover;
 }
 
-
-
 .piccontainer{
   position: relative;
 }
+
+.aboutcontainer{
+  background-color:rgba(6,6,6,0.7);
+}
+
+.aboutrow{
+  padding: 35px;
+}
+
+.custombox{
+  padding: 20px
+}
+
 /*# sourceMappingURL=style.css.map */
