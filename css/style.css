@@ -322,6 +322,7 @@ a:focus {
           align-items: center;
   position: relative;
   padding: 45px 0 75px 0;
+  justify-content: flex-end;
 }
 
 
@@ -329,6 +330,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          justify-content: right
 }
 
 .slider_section #customCarousel1 {
@@ -339,8 +341,7 @@ a:focus {
 .slider_section .detail-box {
   color: #ffffff;
   margin-bottom: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 70px;
 }
 
 .slider_section .detail-box h1 {
@@ -951,9 +952,15 @@ a:focus {
 }
 
 .footer_section .services{
+  color: #000;
   text-align: left;
   font-size: 14px;
   margin-bottom: 7px;
+}
+
+.footer_section .services:hover{
+  color: #ff3333;
+  cursor: pointer;
 }
 
 .footer_section .newsletter{
@@ -1323,4 +1330,5 @@ a:focus {
 .btndiv{
   padding-top: 20px;
 }
+
 /*# sourceMappingURL=style.css.map */
